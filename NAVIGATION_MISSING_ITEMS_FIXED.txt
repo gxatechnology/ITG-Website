@@ -1,0 +1,19 @@
+ITG GLOBAL NAVIGATION FIX — 2026-10-23
+
+Issue from screenshot on blog-article.html: At certain laptop/zoom widths, 4 menu items disappeared due to previous @media 960–1349px rule; they were only accessible from More and looked missing.
+
+Fix:
+- Rebuilt same navigation across all 43 HTML pages.
+- Desktop >=1200px: Home, About, Services, Languages, Industries, Publications, Blog, Join ITG, Contact and More, plus Get a Quote. If screen/browser zoom makes viewport narrower, lower-priority links move to More.
+- 1050–1199px: Home, About, Services, Languages, Blog, Contact, More; Industries, Publications, Join ITG in More.
+- 960–1049px: Home, Services, Languages, Blog, More; all secondary items in More.
+- <=959px: hamburger drawer includes all public site links.
+- Original ITG artwork, compact height, section content, buttons, footer and forms retained.
+- Blog article huge title capped for cleaner laptop reading.
+
+DEPLOY:
+Back up Hostinger public_html, extract ZIP inside public_html (index.html in root), overwrite matching site files, then clear browser/cache.
+
+LIMITS: Client/Translator/Admin portals are still design previews. Contact/Quote email handler needs PHP mail server verification on Hostinger.
+
+Blog article PDF buttons were labeled as requests because no PDF files were supplied in the source design. They link to Contact instead of a missing file.

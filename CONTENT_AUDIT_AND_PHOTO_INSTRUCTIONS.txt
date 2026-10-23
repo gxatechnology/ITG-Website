@@ -1,0 +1,36 @@
+ITG CONTENT-REVIEWED HOSTINGER WEBSITE
+October 23, 2026
+
+SOURCE: Supplied Dr. Latika Chawda LinkedIn profile text and Indian Translators Group WordPress site text, compared with the latest Hostinger HTML ZIP.
+
+PUBLIC PAGES REWRITTEN:
+Home, About, Founder, Services, Translation, Interpretation, Languages, Language Pairs, Industries, Publications, Publication Detail, Blog, Blog Article, FAQ, Contact, Join ITG, Quote, Careers.
+
+KEY CORRECTIONS:
+- Dr. Latika Chawda (डॉ. लतिका चावड़ा), Founder & Director, ITG (founded July 2009).
+- Official company/individual emails and phone numbers as given.
+- Services, languages, language pairs and dialects based on supplied materials.
+- Fifteen listed books/collections/editing assignments transcribed from supplied profile. Publication metadata intentionally not invented.
+- Replaced unsupported certification, institutional, invented journal/book/ISO/ISBN, proprietary study and unverifiable numerical claims in public main content.
+- Fake research paper replaced with plainly labelled general editorial content.
+- Screens for secure client/translator/admin portals remain DESIGN PREVIEWS, with explicit banner and noindex tags; do NOT treat as secure logins.
+
+FOUNDER PHOTO:
+An official separate photo was NOT attached with the last request. A neutral photo placeholder is used (not an AI impersonation). To add the real image, save as exactly:
+assets/images/dr-latika-chawda.jpg
+Recommended JPG portrait, 1200x1400 px or larger, around 300-700 KB, permission to publish.
+The founder, about and homepage founder sections will automatically display the real photo when present (same filename).
+DO NOT include an unverified image and do not use the default LinkedIn screenshot crop as a high-resolution photo.
+
+LIMITATIONS:
+- The secure login, dashboard and document portals remain not implemented (only design pages).
+- Public PHP email delivery requires a working Hostinger mail setup; test with a real enquiry on hosting.
+- Other previously supplied HTML pages are retained for backwards compatibility and may contain sample mockup data (marked DEMO).
+- Final logo and site navigation from the previous ZIP are preserved.
+- Verify published contact details, credentials, historical business metrics and legal pages with the client before production.
+
+UPLOAD: Back up existing Hostinger public_html; extract this ZIP to public_html so index.html and assets/ are directly in the web root. Test via an HTTPS domain, not only file://.
+
+ADDITIONAL SAFETY UPDATE:
+- Quote confirmation now only shows success when redirected from PHP handler with sent=1 and a valid reference; it does not imply delivery or project acceptance.
+- Older portal prototypes and quote-upload screens are marked non-functional with noindex meta.

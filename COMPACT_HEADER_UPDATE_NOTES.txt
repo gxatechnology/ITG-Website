@@ -1,0 +1,18 @@
+ITG COMPACT HEADER & HOMEPAGE UPDATE — 2026-10-23
+
+Changes:
+- Removed oversize two-row laptop navigation, compressed info-bar and header.
+- Desktop/laptop widths >=960px use single-row navigation.
+- 960–1349px: Home, Services, Languages + More, with Industries, Publications, About and Join ITG inside More. Large screens show all seven primary tabs.
+- At <=959px: accessible three-line hamburger opens all site pages.
+- Keeps higher resolution original ITG logo and enlarged brand name.
+- Tighter top homepage spacing and primary conversion buttons.
+- All 43 HTML files, internal links, SVG assets, and existing PHP form handler retained.
+
+INSTALL:
+- Back up existing Hostinger public_html.
+- Upload and extract ZIP directly into public_html, overwrite related files.
+- Ensure index.html, assets and api are in public_html itself, not a nested directory.
+- Purge CDN/browser cache after update.
+
+NOT IN SCOPE: actual authenticated Client/Translator/Admin backend functionality and PHP mail server delivery verification.

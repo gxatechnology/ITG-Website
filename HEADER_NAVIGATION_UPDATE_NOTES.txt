@@ -1,0 +1,19 @@
+INDIAN TRANSLATORS GROUP — DESKTOP/LAPTOP HEADER & HOMEPAGE REFINEMENT
+Updated: 2026-10-23
+
+CHANGED:
+- Proper horizontal desktop navigation at >=1440px.
+- At laptop widths 901–1439px, a clean second-row horizontal navigation shows the main links. The mobile hamburger is NOT used at laptop sizes.
+- At 900px and below, hamburger opens the original mobile slide-out navigation with all pages.
+- Enlarged and better-spaced full brand name next to the logo.
+- More dropdown is organized into company, services, and preview portal groups.
+- Homepage spacing tightened; quotation/explore/WhatsApp calls-to-action moved above the credo for early visibility.
+- Original high-resolution ITG brand mark retained. Other page contents and 40-screen files remain in place.
+
+INSTALL:
+1. Back up Hostinger public_html.
+2. Upload ZIP inside public_html and extract; index.html and assets must be directly inside public_html.
+3. Overwrite old HTML files and assets/css/itg-custom.css.
+4. Purge Hostinger/CDN and browser cache, then check at 390, 1024, 1366, 1440 and 1920px.
+
+NOTE: Static client / translator / admin previews do not become genuine secure apps from these appearance changes.

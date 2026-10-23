@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_admin_console" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><title>Admin Dashboard | Indian Translators Group</title><meta content="Admin Dashboard — Indian Translators Group (ITG), professional translation and language services since 2009." name="description"/><link href="assets/css/site.css" rel="stylesheet"/><link href="assets/css/itg-custom.css" rel="stylesheet"/><link href="assets/images/favicon.png" rel="icon"/><meta content="noindex,nofollow" name="robots"/></head><body class="bg-background font-body-md text-on-surface antialiased"><div id="itg-demo-warning" style="position:relative;z-index:4000;background:#fff2d6;color:#664418;padding:12px 18px;font:600 13px/1.6 Arial,sans-serif;text-align:center;border-bottom:1px solid #efcb78">DESIGN PREVIEW ONLY — Login, private records, project actions and analytics require a secure backend and are not live services.</div><header class="itg-site-header" id="itg-site-header">
+<div class="itg-topline"><div class="itg-shell"><span>Established July 2009 · Wardha, Maharashtra</span><span class="itg-topline-right">Go Simple · Go Fast · Go Economic <span class="itg-top-divider">|</span> <a href="tel:+918624854728">+91 8624854728</a></span></div></div>
+<div class="itg-shell itg-header-bar"><a aria-label="ITG — Home" class="itg-brand" href="index.html"><img alt="Indian Translators Group official logo" height="96" src="assets/images/itg-enhanced-logo.png" width="96"/><span class="itg-brand-copy"><strong>Indian Translators Group</strong><small>Bridging Languages. Connecting the World.</small></span></a>
+<nav aria-label="Primary navigation" class="itg-desktop-nav"><a class="itg-navlink" href="index.html">Home</a><a class="itg-navlink" href="about.html">About</a><a class="itg-navlink" href="services.html">Services</a><a class="itg-navlink" href="languages.html">Languages</a><a class="itg-navlink" href="industries.html">Industries</a><a class="itg-navlink" href="publications.html">Publications</a><a class="itg-navlink" href="blog.html">Blog</a><a class="itg-navlink" href="join-itg.html">Join ITG</a><a class="itg-navlink" href="contact.html">Contact</a><div class="itg-more"><button aria-controls="itg-more-menu" aria-expanded="false" class="itg-more-trigger" type="button">More <svg aria-hidden="true" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="m6 9 6 6 6-6"></path></svg></button><div class="itg-more-menu" id="itg-more-menu"><div class="itg-more-group"><p class="itg-more-heading">COMPANY</p><a class="itg-more-link" href="founder.html">Our Founder</a><a class="itg-more-link" href="about.html">About ITG</a><a class="itg-more-link" href="publications.html">Publications</a><a class="itg-more-link" href="industries.html">Industries</a><a class="itg-more-link" href="join-itg.html">Join ITG</a></div><div class="itg-more-group"><p class="itg-more-heading">SERVICES &amp; HELP</p><a class="itg-more-link" href="services.html">Services</a><a class="itg-more-link" href="language-pairs.html">Language Pair Finder</a><a class="itg-more-link" href="translation.html">Translation Services</a><a class="itg-more-link" href="interpretation.html">Interpretation</a><a class="itg-more-link" href="faq.html">FAQ &amp; Help Center</a></div><div class="itg-more-group"><p class="itg-more-heading">RESOURCES &amp; CONTACT</p><a class="itg-more-link" href="blog.html">Blog &amp; Resources</a><a class="itg-more-link" href="careers.html">Careers</a><a class="itg-more-link" href="contact.html">Contact Us</a></div><div class="itg-more-group"><p class="itg-more-heading">PORTAL PREVIEWS</p><a class="itg-more-link" href="client-login.html">Client Portal Preview</a><a class="itg-more-link" href="translator-login.html">Translator Portal Preview</a></div></div></div></nav>
+<div class="itg-header-actions"><a class="itg-quote-link" href="quote.html">Get a Quote <svg aria-hidden="true" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="15"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><button aria-controls="itg-mobile-panel" aria-expanded="false" aria-label="Open navigation menu" class="itg-menu-toggle" id="itg-menu-toggle" type="button"><svg aria-hidden="true" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23"><path d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div></div>
+<nav aria-label="Mobile navigation" class="itg-mobile-panel" hidden="" id="itg-mobile-panel"><div class="itg-mobile-inner"><div class="itg-mobile-head"><strong>Explore ITG</strong><button aria-label="Close menu" class="itg-mobile-close" type="button"><svg aria-hidden="true" fill="none" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23"><path d="M18 6 6 18M6 6l12 12"></path></svg></button></div><a class="itg-mobile-link" href="index.html">Home<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="about.html">About<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="services.html">Services<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="languages.html">Languages<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="industries.html">Industries<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="publications.html">Publications<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="blog.html">Blog<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="join-itg.html">Join ITG<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="contact.html">Contact<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="language-pairs.html">Language Pair Finder<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="interpretation.html">Interpretation<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="translation.html">Book Translation<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="faq.html">FAQ &amp; Help<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="careers.html">Careers<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="client-login.html">Client Portal Preview<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-link" href="translator-login.html">Translator Portal Preview<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="16"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><a class="itg-mobile-cta" href="quote.html">Request a Quote <svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="18"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg></a><div class="itg-mobile-contact"><svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="17"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3 7 9 6 9-6"></path></svg> <a href="mailto:itg.translators@gmail.com">itg.translators@gmail.com</a></div></div></nav>
+</header><div class="itg-preview-bar" role="note"><strong>DESIGN PREVIEW:</strong> Client, Translator and Admin portal interfaces are visual previews only. No login, private database, payment, file storage or secure workflow is active. Do not enter credentials or personal information.</div><main class="w-full pt-28 bg-background min-h-screen itg-main-section"><div class="flex flex-col w-full">
+<div class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-margin-desktop py-space-md flex flex-col gap-space-lg">
+<!-- Directorial Command Top Banner -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-md sm:p-space-lg shadow-sm">
+<div class="absolute right-0 top-0 w-96 h-full bg-gradient-to-l from-primary/5 via-secondary/5 to-transparent pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md relative z-10">
+<!-- Identity & Status Indicator -->
+<div class="flex flex-col gap-1.5 max-w-2xl">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-primary text-on-primary font-label-xs text-label-xs uppercase tracking-wider">Directorial clearance node</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-secondary-container font-label-xs text-label-xs font-semibold">Director: Dr. Latika Chawda</span>
+<span class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-surface-container-low text-primary font-label-xs text-label-xs font-mono font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+              ALL 4 NODES SYNCED
+            </span>
+</div>
+<h1 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">
+            Directorial Command Console — Wardha Linguistic Secretariat
+          </h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5 flex-wrap">
+<span aria-label="hub" class="material-symbols-outlined text-[16px] text-outline"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 576 512" width="1em"><path d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 16 192 0 0-16c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-16-192 0 0 16c0 1.7-.1 3.4-.3 5L272 288l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-1.7 .1-3.4 .3-5L144 224l-96 0c-26.5 0-48-21.5-48-48L0 80z"></path></svg></span>
+<span>Active Enclaves: <strong>Wardha Central</strong>, <strong>Mumbai High Court Liaison</strong>, <strong>Pune Archives</strong>, <strong>New Delhi Desk</strong></span>
+<span class="opacity-40">•</span>
+<span class="font-mono text-label-xs">certification not verified Tier-1 Real-time Manifest</span>
+</p>
+</div>
+<!-- Action Control Buttons -->
+<div class="flex flex-wrap items-center gap-2 shrink-0 w-full sm:w-auto">
+<button class="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-primary font-label-sm text-label-sm transition-all shadow-sm">
+<span aria-label="account balance wallet" class="material-symbols-outlined text-[18px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l368 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></span>
+<span>Disburse Honorariums</span>
+</button>
+<button class="flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container text-on-secondary-fixed-variant hover:bg-surface-container-high font-label-sm text-label-sm transition-all shadow-sm" onclick="window.ITG.showPreviewInfo();return false;" type="button">
+<span aria-label="send time extension" class="material-symbols-outlined text-[18px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></span>
+<span>Dispatch Pro-Forma</span>
+</button>
+<button class="flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-sm text-label-sm transition-all shadow-sm">
+<span aria-label="add circle" class="material-symbols-outlined text-[18px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path></svg></span>
+<span>+ Ingest Custom RFQ</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Executive KPI Metrics Grid (4 Cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- KPI 1: Active Dockets -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between gap-3 relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase text-on-surface-variant tracking-wider font-bold">Active Translation Dockets</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">14</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-medium">Live Under Mandate</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-primary flex items-center justify-center shrink-0">
+<span aria-label="folder special" class="material-symbols-outlined text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 576 512" width="1em"><path d="M88.7 223.8L0 375.8 0 96C0 60.7 28.7 32 64 32l117.5 0c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7L416 96c35.3 0 64 28.7 64 64l0 32-336 0c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224l400 0c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480L32 480c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z"></path></svg></span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-2">
+<div class="flex items-center justify-between text-label-xs font-label-xs text-on-surface-variant">
+<span>3 Stage-4 Audit • 2 Sworn • 9 Primary</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden flex">
+<div class="bg-primary h-full w-[64%]"></div>
+<div class="bg-tertiary-fixed-dim h-full w-[22%]"></div>
+<div class="bg-surface-tint h-full w-[14%]"></div>
+</div>
+<div class="flex items-center justify-between font-label-xs text-label-xs pt-1">
+<span class="text-on-surface-variant font-medium">SLA Risk Assessment</span>
+<span class="text-tertiary-container font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+              1 Expiring &lt; 24h
+            </span>
+</div>
+</div>
+</div>
+<!-- KPI 2: Client Inquiries / Leads -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between gap-3 relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase text-on-surface-variant tracking-wider font-bold">Unprocessed Client Inquiries</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">8</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-medium">RFQs Awaiting Triage</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-primary flex items-center justify-center shrink-0">
+<span aria-label="mark email unread" class="material-symbols-outlined text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-2">
+<div class="flex items-center justify-between font-label-xs text-label-xs">
+<span class="text-on-surface-variant">Mean Response Latency</span>
+<span class="font-mono text-primary font-bold">28 mins</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-[12%]"></div>
+</div>
+<div class="flex items-center justify-between font-label-xs text-label-xs pt-1">
+<span class="text-on-surface-variant">Standard SLA Guarantee</span>
+<span class="text-on-surface-variant font-mono">4.0h Threshold</span>
+</div>
+</div>
+</div>
+<!-- KPI 3: Revenue & Realized Billing -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between gap-3 relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase text-on-surface-variant tracking-wider font-bold">Monthly Realized Billing</span>
+<div class="flex items-baseline gap-1.5">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">₹18.42L</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-medium">/ ₹20L Goal</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-primary flex items-center justify-center shrink-0">
+<span aria-label="analytics" class="material-symbols-outlined text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 400c0 44.2 35.8 80 80 80l400 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 416c-8.8 0-16-7.2-16-16L64 64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"></path></svg></span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-2">
+<div class="flex items-center justify-between font-label-xs text-label-xs">
+<span class="text-on-surface-variant">Target Realization Rate</span>
+<span class="font-bold text-primary">92.1% Achieved</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[92.1%]"></div>
+</div>
+<div class="flex items-center justify-between font-label-xs text-label-xs pt-1">
+<span class="text-on-surface-variant">8th Schedule Indic Pairs</span>
+<span class="text-primary font-semibold font-mono">74% of Folio Gross</span>
+</div>
+</div>
+</div>
+<!-- KPI 4: Empanelled Scholars Capacity -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between gap-3 relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase text-on-surface-variant tracking-wider font-bold">Scholars on Active Folios</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">34</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-medium">Engaged Philologists</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-primary flex items-center justify-center shrink-0">
+<span aria-label="groups" class="material-symbols-outlined text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 640 512" width="1em"><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z"></path></svg></span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5 pt-2">
+<div class="flex items-center justify-between font-label-xs text-label-xs">
+<span class="text-on-surface-variant">Current Daily Load Allocated</span>
+<span class="font-bold text-primary">76% Utilized</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-[76%]"></div>
+</div>
+<div class="flex items-center justify-between font-label-xs text-label-xs pt-1">
+<span class="text-on-surface-variant">Throughput Velocity</span>
+<span class="font-mono text-primary font-bold">24,500 wpd</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Two-Column Operations Layout: 60% Left, 40% Right -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-start">
+<!-- LEFT COLUMN: 60% (lg:col-span-7) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md w-full">
+<!-- Section: Active Production Velocity & Dockets -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between flex-wrap gap-2">
+<div class="flex items-center gap-2">
+<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">
+                Active Docket Production Velocity &amp; Stage Gates
+              </h2>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-xs text-label-xs uppercase px-2 py-1 rounded bg-surface-container text-on-surface-variant font-semibold">Live Pipeline</span>
+<a class="font-label-xs text-label-xs text-primary font-bold hover:underline flex items-center gap-0.5" href="sitemap.html">
+<span>View Full Registry</span>
+<span aria-label="arrow forward" class="material-symbols-outlined text-[14px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 448 512" width="1em"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></span>
+</a>
+</div>
+</div>
+<!-- Dockets List -->
+<div class="flex flex-col gap-3">
+<!-- Docket 1 -->
+<div class="bg-surface-container-low p-3.5 rounded-lg hover:shadow-sm transition-all flex flex-col gap-2.5">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-mono font-bold text-label-sm text-primary bg-surface-container px-2 py-0.5 rounded">
+                    #ITG-2026-TR-1082
+                  </span>
+<span class="font-title-md text-title-md text-primary font-bold">
+                    Bombay High Court Precedents
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-xs text-label-xs font-semibold">
+                    Modi Script ⇄ English
+                  </span>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<span class="px-2 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-xs text-label-xs font-bold">
+                    Stage 4: Peer Cross-Audit
+                  </span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-label-xs text-label-xs text-on-surface-variant">
+<div>
+<span class="opacity-70 block">Volume</span>
+<span class="font-mono font-bold text-on-surface">42,000 words</span>
+</div>
+<div>
+<span class="opacity-70 block">Assigned Arbiters</span>
+<span class="font-medium text-on-surface truncate block">Prof. Deshmukh &amp; Dr. Chawda</span>
+</div>
+<div>
+<span class="opacity-70 block">Statutory Deadline</span>
+<span class="font-mono font-bold text-error">Oct 25, 2026 (Urgent)</span>
+</div>
+<div>
+<span class="opacity-70 block">Audit Clearance</span>
+<span class="font-mono font-bold text-primary">82% Verified</span>
+</div>
+</div>
+<!-- Progress bar -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden mt-1">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 82%;"></div>
+</div>
+</div>
+<!-- Docket 2 -->
+<div class="bg-surface-container-low p-3.5 rounded-lg hover:shadow-sm transition-all flex flex-col gap-2.5">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-mono font-bold text-label-sm text-primary bg-surface-container px-2 py-0.5 rounded">
+                    #ITG-2026-TR-1094
+                  </span>
+<span class="font-title-md text-title-md text-primary font-bold">
+                    Peshwa Land Records &amp; Sanads
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-xs text-label-xs font-semibold">
+                    Archaic Marathi ⇄ English
+                  </span>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-secondary-container font-label-xs text-label-xs font-bold">
+                    Stage 3: Primary Draft
+                  </span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-label-xs text-label-xs text-on-surface-variant">
+<div>
+<span class="opacity-70 block">Volume</span>
+<span class="font-mono font-bold text-on-surface">18,500 words</span>
+</div>
+<div>
+<span class="opacity-70 block">Assigned Arbiter</span>
+<span class="font-medium text-on-surface">Dr. M. Joshi (Pune)</span>
+</div>
+<div>
+<span class="opacity-70 block">Statutory Deadline</span>
+<span class="font-mono font-bold text-on-surface">Oct 28, 2026</span>
+</div>
+<div>
+<span class="opacity-70 block">Audit Clearance</span>
+<span class="font-mono font-bold text-primary">68% Verified</span>
+</div>
+</div>
+<!-- Progress bar -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden mt-1">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 68%;"></div>
+</div>
+</div>
+<!-- Docket 3 -->
+<div class="bg-surface-container-low p-3.5 rounded-lg hover:shadow-sm transition-all flex flex-col gap-2.5">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-mono font-bold text-label-sm text-primary bg-surface-container px-2 py-0.5 rounded">
+                    #ITG-2026-TR-1102
+                  </span>
+<span class="font-title-md text-title-md text-primary font-bold">
+                    Constitutional Lexicon Harmonization
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-xs text-label-xs font-semibold">
+                    Sanskrit ⇄ Hindi
+                  </span>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-xs text-label-xs font-bold">
+                    Stage 2: Scope Calibration
+                  </span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-label-xs text-label-xs text-on-surface-variant">
+<div>
+<span class="opacity-70 block">Volume</span>
+<span class="font-mono font-bold text-on-surface">25,000 words</span>
+</div>
+<div>
+<span class="opacity-70 block">Assigned Arbiter</span>
+<span class="font-medium text-on-surface">Dr. Shridhar Shastri</span>
+</div>
+<div>
+<span class="opacity-70 block">Statutory Deadline</span>
+<span class="font-mono font-bold text-on-surface">Nov 04, 2026</span>
+</div>
+<div>
+<span class="opacity-70 block">Audit Clearance</span>
+<span class="font-mono font-bold text-primary">35% Verified</span>
+</div>
+</div>
+<!-- Progress bar -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden mt-1">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 35%;"></div>
+</div>
+</div>
+<!-- Docket 4 -->
+<div class="bg-surface-container-low p-3.5 rounded-lg hover:shadow-sm transition-all flex flex-col gap-2.5">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-mono font-bold text-label-sm text-primary bg-surface-container px-2 py-0.5 rounded">
+                    #ITG-2026-TR-1105
+                  </span>
+<span class="font-title-md text-title-md text-primary font-bold">
+                    Ayurvedic Epigraphical Copperplates
+                  </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-xs text-label-xs font-semibold">
+                    Modi/Devanagari ⇄ English
+                  </span>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<span class="px-2 py-0.5 rounded bg-surface-variant text-primary font-label-xs text-label-xs font-bold">
+                    Stage 1: Ingestion
+                  </span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-label-xs text-label-xs text-on-surface-variant">
+<div>
+<span class="opacity-70 block">Volume</span>
+<span class="font-mono font-bold text-on-surface">8,200 words</span>
+</div>
+<div>
+<span class="opacity-70 block">Assigned Arbiter</span>
+<span class="font-medium text-on-surface">Archival Unit (Wardha)</span>
+</div>
+<div>
+<span class="opacity-70 block">Statutory Deadline</span>
+<span class="font-mono font-bold text-on-surface">Nov 08, 2026</span>
+</div>
+<div>
+<span class="opacity-70 block">Ingestion Integrity</span>
+<span class="font-mono font-bold text-primary">100% Ingested</span>
+</div>
+</div>
+<!-- Progress bar -->
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden mt-1">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 100%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Linguistic Corridor Distribution Visualizer -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col gap-0.5">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">
+                Linguistic Corridor Revenue &amp; Volume Distribution
+              </h2>
+<span class="font-label-xs text-label-xs text-on-surface-variant">
+                Directorial quota based on 22 Scheduled Indian Languages + Classical Epigraphy
+              </span>
+</div>
+<span class="px-2.5 py-1 rounded bg-surface-container font-mono text-label-xs text-primary font-bold">
+              Q4 CYCLE
+            </span>
+</div>
+<!-- Stacked Graphical Corridor Bar -->
+<div class="w-full flex h-6 rounded-lg overflow-hidden shadow-inner">
+<div class="bg-primary hover:opacity-90 transition-opacity relative group" style="width: 38%;" title="English ⇄ Hindi (38%)"></div>
+<div class="bg-primary-container hover:opacity-90 transition-opacity" style="width: 31%;" title="Marathi / Modi Script (31%)"></div>
+<div class="bg-secondary hover:opacity-90 transition-opacity" style="width: 18%;" title="Sanskrit Classical (18%)"></div>
+<div class="bg-secondary-container hover:opacity-90 transition-opacity" style="width: 9%;" title="South Dravidian (9%)"></div>
+<div class="bg-surface-variant hover:opacity-90 transition-opacity" style="width: 4%;" title="Global Commercial (4%)"></div>
+</div>
+<!-- Corridor Data Breakdown Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-1">
+<div class="flex flex-col p-2 rounded bg-surface-container-low">
+<span class="flex items-center gap-1.5 font-label-xs text-label-xs text-on-surface-variant font-medium">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                Eng ⇄ Hindi
+              </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary mt-1">38%</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-mono">₹7.00L MTD</span>
+</div>
+<div class="flex flex-col p-2 rounded bg-surface-container-low">
+<span class="flex items-center gap-1.5 font-label-xs text-label-xs text-on-surface-variant font-medium">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+                Marathi / Modi
+              </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary mt-1">31%</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-mono">₹5.71L MTD</span>
+</div>
+<div class="flex flex-col p-2 rounded bg-surface-container-low">
+<span class="flex items-center gap-1.5 font-label-xs text-label-xs text-on-surface-variant font-medium">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                Sanskrit Epig.
+              </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary mt-1">18%</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-mono">₹3.31L MTD</span>
+</div>
+<div class="flex flex-col p-2 rounded bg-surface-container-low">
+<span class="flex items-center gap-1.5 font-label-xs text-label-xs text-on-surface-variant font-medium">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+                Dravidian Pairs
+              </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary mt-1">9%</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-mono">₹1.65L MTD</span>
+</div>
+<div class="flex flex-col p-2 rounded bg-surface-container-low">
+<span class="flex items-center gap-1.5 font-label-xs text-label-xs text-on-surface-variant font-medium">
+<span class="w-2 h-2 rounded-full bg-surface-variant"></span>
+                Commercial
+              </span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary mt-1">4%</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-mono">₹0.75L MTD</span>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: 40% (lg:col-span-5) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md w-full">
+<!-- Urgent Directorial Attention & Escalations (3 Items) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md relative overflow-hidden">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-container animate-ping"></span>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">
+                Urgent Directorial Attention
+              </h2>
+</div>
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-xs text-label-xs font-bold">
+              3 ESCALATIONS
+            </span>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Urgent Item 1 -->
+<div class="p-3.5 rounded-lg bg-surface-container-low flex flex-col gap-2.5">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span aria-label="verified user" class="material-symbols-outlined text-primary text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8l0 378.1C394 378 431.1 230.1 432 141.4L256 66.8s0 0 0 0z"></path></svg></span>
+<span class="font-label-md text-label-md font-bold text-primary">
+                    Judicial Sworn Affidavit Sign-off
+                  </span>
+</div>
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-mono text-[11px] font-bold">
+                  EXP: 2h 40m
+                </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Docket <strong>#TR-1082</strong> (Bombay HC). Requires <strong>Dr. Latika Chawda</strong> digital cryptographic token &amp; physical notary seal validation.
+              </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-mono text-label-xs text-outline font-semibold">HC-AUDIT-MH-08</span>
+<button class="px-3 py-1.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-xs text-label-xs font-bold transition-all flex items-center gap-1 shadow-sm" onclick="window.ITG.showPreviewInfo();return false;" type="button">
+<span aria-label="draw" class="material-symbols-outlined text-[14px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M362.7 19.3L314.3 67.7 444.3 197.7l48.4-48.4c25-25 25-65.5 0-90.5L453.3 19.3c-25-25-65.5-25-90.5 0zm-71 71L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L421.7 220.3 291.7 90.3z"></path></svg></span>
+<span>Approve Affidavit</span>
+</button>
+</div>
+</div>
+<!-- Urgent Item 2 -->
+<div class="p-3.5 rounded-lg bg-surface-container-low flex flex-col gap-2.5">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span aria-label="inventory 2" class="material-symbols-outlined text-tertiary-container text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 448 512" width="1em"><path d="M50.7 58.5L0 160l208 0 0-128L93.7 32C75.5 32 58.9 42.3 50.7 58.5zM240 160l208 0L397.3 58.5C389.1 42.3 372.5 32 354.3 32L240 32l0 128zm208 32L0 192 0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-224z"></path></svg></span>
+<span class="font-label-md text-label-md font-bold text-primary">
+                    Institutional Tender Ingestion
+                  </span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-mono text-[11px] font-bold">
+                  TRIAGE: 3h
+                </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                National Archives of India tender ingestion (<strong>₹4,80,000 INR</strong> scope, 110 copperplate folios). Feasibility audit required.
+              </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-mono text-label-xs text-outline font-semibold">NAI-DEL-2026-89</span>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary font-label-xs text-label-xs font-bold transition-all flex items-center gap-1 shadow-sm">
+<span aria-label="person add" class="material-symbols-outlined text-[14px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></span>
+<span>Assign Arbiter</span>
+</button>
+</div>
+</div>
+<!-- Urgent Item 3 -->
+<div class="p-3.5 rounded-lg bg-surface-container-low flex flex-col gap-2.5">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span aria-label="payments" class="material-symbols-outlined text-primary text-[20px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 576 512" width="1em"><path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm64 320l-64 0 0-64c35.3 0 64 28.7 64 64zM64 192l0-64 64 0c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"></path></svg></span>
+<span class="font-label-md text-label-md font-bold text-primary">
+                    Honorarium Ledger Approval
+                  </span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-on-secondary-container font-mono text-[11px] font-bold">
+                  CYCLE #OCT-B
+                </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Batch release for <strong>28 Scholars</strong>. Sum: <strong>₹6,45,200 INR</strong>. All milestones passed QA benchmark under certification not verified.
+              </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-mono text-label-xs text-outline font-semibold">NEFT-MANIFEST-28</span>
+<button class="px-3 py-1.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-xs text-label-xs font-bold transition-all flex items-center gap-1 shadow-sm">
+<span aria-label="receipt long" class="material-symbols-outlined text-[14px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 384 512" width="1em"><path d="M14 2.2C22.5-1.7 32.5-.3 39.6 5.8L80 40.4 120.4 5.8c9-7.7 22.3-7.7 31.2 0L192 40.4 232.4 5.8c9-7.7 22.3-7.7 31.2 0L304 40.4 344.4 5.8c7.1-6.1 17.1-7.5 25.6-3.6s14 12.4 14 21.8l0 464c0 9.4-5.5 17.9-14 21.8s-18.5 2.5-25.6-3.6L304 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L192 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L80 471.6 39.6 506.2c-7.1 6.1-17.1 7.5-25.6 3.6S0 497.4 0 488L0 24C0 14.6 5.5 6.1 14 2.2zM96 144c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 144zM80 352c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 336c-8.8 0-16 7.2-16 16zM96 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 240z"></path></svg></span>
+<span>Verify NEFT Manifest</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Audit & Cryptographic Log Feed -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span aria-label="terminal" class="material-symbols-outlined text-primary text-[18px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 576 512" width="1em"><path d="M9.4 86.6C-3.1 74.1-3.1 53.9 9.4 41.4s32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L178.7 256 9.4 86.6zM256 416l288 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z"></path></svg></span>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">
+                Cryptographic Audit Log
+              </h2>
+</div>
+<span class="font-mono text-label-xs text-on-surface-variant font-medium">LIVE STREAM</span>
+</div>
+<div class="flex flex-col gap-2.5 font-mono text-[12px]">
+<!-- Log Entry 1 -->
+<div class="p-2.5 rounded bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-primary font-bold">SHA256_CERT_VERIFIED</span>
+<span>14:31:02 IST</span>
+</div>
+<div class="text-on-surface text-[11px] truncate">
+                Hash: <span class="text-primary">a4f981c23be800109...</span> (Docket #TR-1082)
+              </div>
+<div class="text-on-surface-variant text-[11px]">
+                Signatory: Dr. Latika Chawda [Cert Key: 0x9021]
+              </div>
+</div>
+<!-- Log Entry 2 -->
+<div class="p-2.5 rounded bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-on-secondary-container font-bold">SCHOLAR_ACCEPTED</span>
+<span>14:18:45 IST</span>
+</div>
+<div class="text-on-surface text-[11px] truncate">
+                Prof. Deshmukh accepted assignment on Docket #TR-1094
+              </div>
+<div class="text-on-surface-variant text-[11px]">
+                Modi Script ⇄ Eng (18,500 words, Milestones: 3)
+              </div>
+</div>
+<!-- Log Entry 3 -->
+<div class="p-2.5 rounded bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-primary font-bold">DISPATCH_GEN_SUCCESS</span>
+<span>13:54:19 IST</span>
+</div>
+<div class="text-on-surface text-[11px] truncate">
+                Pro-forma Inv #PF-2026-904 dispatched to Bombay HC Liaison
+              </div>
+<div class="text-on-surface-variant text-[11px]">
+                Billing Total: ₹3,84,000 INR (GST 18% included)
+              </div>
+</div>
+<!-- Log Entry 4 -->
+<div class="p-2.5 rounded bg-surface-container-low flex flex-col gap-1">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-tertiary-container font-bold">ARCHIVAL_INGESTION_RAW</span>
+<span>13:22:11 IST</span>
+</div>
+<div class="text-on-surface text-[11px] truncate">
+                Ingested 12 TIF TIFF epigraph scans (Copperplate set 4)
+              </div>
+<div class="text-on-surface-variant text-[11px]">
+                Enclave: Wardha Central Storage (Node-01)
+              </div>
+</div>
+</div>
+<div class="pt-1 flex items-center justify-between text-label-xs font-label-xs text-on-surface-variant">
+<span>Integrity: 100% Tamper-Evident</span>
+<a class="text-primary hover:underline font-bold flex items-center gap-1" href="sitemap.html">
+<span>Export Audit Trail (.csv)</span>
+<span aria-label="download" class="material-symbols-outlined text-[13px]"><svg aria-hidden="true" class="itg-material-svg" fill="currentColor" focusable="false" height="1em" viewbox="0 0 512 512" width="1em"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg></span>
+</a>
+</div>
+</div>
+<!-- Archival Enclave Visual Snapshot Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase text-on-surface-variant font-bold">Enclave Archival Snapshot</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-mono text-[10px] font-bold">WARDHA PREMISES</span>
+</div>
+<div class="relative rounded-lg overflow-hidden h-36">
+<img alt="ITG Admin Dashboard illustration" class="w-full h-full object-cover" data-alt="Scholarly classical manuscript archives and translation study at Indian Translators Group Wardha facility, showing high-resolution Modi script documents, Devanagari epigraphs, reference lexicons, brass seal stamps, and deep navy corporate institutional folders on polished teakwood desk under warm diffused lighting" data-fallback="assets/graphics/general.svg" loading="lazy" onerror="this.onerror=null;this.src=this.dataset.fallback;" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS_xkMIWWNK_kz7pzBxcO8hxDKZQeO9XinAkX05MeYYtT48UX2ZVDzS_vSYluIvtvCFbZ9_LCnOcw5_f9meZELbIuP2Hj8XQYAKdOu9B3tVF7S-4CdDnZ7H4Vx6IXo8pKI0YrEjIW71i6yVpn-NP4u0VT4mHOiZ0j9PzrwSCcx0vXRa0AkkQ9OVbh0kVC2u67kpT5Vcfnv1tUy6LjzgWB5P6JLa0HrZjC7nmuApdUQSOvwq_S_XDfQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex items-end p-3">
+<span class="text-on-primary font-label-xs text-label-xs font-medium">
+                Peshwa &amp; Maratha Period Sanad Documentation Folios • Secure Room 2B
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="itg-site-footer"><div class="itg-footer-grid itg-shell"><div class="itg-footer-about"><img alt="ITG logo" height="112" src="assets/images/itg-enhanced-logo.png" width="112"/><h2>Indian Translators Group</h2><p>Professional translation, interpretation and language services since 2009.</p><p class="itg-footer-tag">Go Simple · Go Fast · Go Economic</p></div><div><h3>Company</h3><a href="about.html">About Us</a><a href="founder.html">Our Founder</a><a href="services.html">Our Services</a><a href="publications.html">Publications</a><a href="blog.html">Blog &amp; Resources</a><a href="careers.html">Careers</a></div><div><h3>Our Services</h3><a href="translation.html">Translation</a><a href="interpretation.html">Interpretation</a><a href="languages.html">Languages</a><a href="language-pairs.html">Language Pair Finder</a><a href="quote.html">Request a Quote</a></div><div><h3>Get in touch</h3><p>Wardha, Maharashtra, India</p><a href="mailto:itg.translators@gmail.com">itg.translators@gmail.com</a><a href="tel:+918624854728">+91 8624854728</a><a href="https://wa.me/917620613859" rel="noopener" target="_blank">WhatsApp: +91 7620613859</a><a href="contact.html">Contact Form</a></div></div><div class="itg-footer-bottom itg-shell"><span>© <span id="itg-year">2026</span> Indian Translators Group. All rights reserved.</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="sitemap.html">Sitemap</a></span></div></footer><script defer="" src="assets/js/site.js"></script></body></html>

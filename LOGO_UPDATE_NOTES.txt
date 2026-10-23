@@ -1,0 +1,20 @@
+INDIAN TRANSLATORS GROUP — FINAL HOSTINGER WEBSITE (LOGO UPDATE)
+
+Updated: October 23, 2026
+
+What was changed:
+- Replaced the header, footer and other site-brand logo references with the newly uploaded, transparent higher-resolution ITG emblem.
+- Increased the header logo to 96x96px desktop; 76x76px mobile (72x72 on very narrow screens).
+- Increased the footer logo to 112x112px desktop, 104x104px mobile.
+- Preserved the original 400x400 logo file for reference.
+- Kept the existing 40 website screens, HTML/CSS layout, content, links, forms, and scripts intact.
+- Adjusted the navigation breakpoint so a larger header logo does not crowd desktop tabs on smaller screens.
+
+Installation:
+1. Back up existing Hostinger public_html contents.
+2. Extract this ZIP inside public_html. index.html must be directly in public_html.
+3. If replacing a previously uploaded version, overwrite existing files including assets/css/itg-custom.css and HTML files.
+4. Clear Hostinger/CDN and browser cache; reload with Ctrl+F5.
+5. Check homepage, Services and Mobile Menu.
+
+This does NOT add a new real backend to demo client/admin portals. The same constraints and server setup notes from the prior Hostinger-ready package still apply.

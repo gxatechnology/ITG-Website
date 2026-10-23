@@ -1,0 +1,19 @@
+INDIAN TRANSLATORS GROUP (ITG) — FINAL HOSTING PACKAGE
+=====================================================
+
+This folder is prepared as a hosting-ready package.
+
+Main updates included:
+1. Founder photo added as assets/images/dr-latika-chawda.png
+2. Founder image styling updated to circular presentation.
+3. Homepage, About, Founder, Services, Contact, and Join ITG pages refreshed with clearer content.
+4. Contact details aligned with supplied WordPress and LinkedIn references.
+5. Responsive structure preserved for mobile, tablet, and desktop.
+
+Recommended upload method:
+- Upload the complete contents of this folder to your hosting root (public_html or equivalent).
+- Keep the folder structure exactly the same.
+- Ensure PHP mail is enabled if you want forms to submit via api/submit.php.
+
+Key founder asset:
+- assets/images/dr-latika-chawda.png

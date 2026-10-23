@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin*.html
+Disallow: /client-*.html
+Disallow: /translator-*.html
+Allow: /
